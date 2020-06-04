@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 import { getCustomRepository } from 'typeorm';
 
 import AppError from '../errors/AppError';
 
-import Transaction from '../models/Transaction';
+// import Transaction from '../models/Transaction';
 
 import TransactionsRepository from '../repositories/TransactionsRepository';
 
@@ -18,13 +17,6 @@ class DeleteTransactionService {
     }
 
     await transactionsRepository.remove(transaction);
-=======
-// import AppError from '../errors/AppError';
-
-class DeleteTransactionService {
-  public async execute(): Promise<void> {
-    // TODO
->>>>>>> 8d7e856fe0d23a4629b861902608265c5a652adc
   }
 }
 

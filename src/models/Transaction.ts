@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
   Entity,
   Column,
@@ -35,21 +34,6 @@ class Transaction {
   created_at: Date;
 
   @UpdateDateColumn()
-=======
-class Transaction {
-  id: string;
-
-  title: string;
-
-  type: 'income' | 'outcome';
-
-  value: number;
-
-  category_id: string;
-
-  created_at: Date;
-
->>>>>>> 8d7e856fe0d23a4629b861902608265c5a652adc
   updated_at: Date;
 }
 

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { getCustomRepository, getRepository } from 'typeorm';
 import AppError from '../errors/AppError';
 
@@ -54,15 +53,6 @@ class CreateTransactionService {
     await transactionRepository.save(transaction);
 
     return transaction;
-=======
-// import AppError from '../errors/AppError';
-
-import Transaction from '../models/Transaction';
-
-class CreateTransactionService {
-  public async execute(): Promise<Transaction> {
-    // TODO
->>>>>>> 8d7e856fe0d23a4629b861902608265c5a652adc
   }
 }
 
